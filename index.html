@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<title>DropitGo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/main-color.css" id="colors">
+
+</head>
+
+<body class="transparent-header">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header Container
+================================================== -->
+<header id="header-container">
+
+	<!-- Header -->
+	<div id="header">
+		<div class="container">
+			
+			<!-- Left Side Content -->
+			<div class="left-side">
+				
+				<!-- Logo -->
+				<div id="logo">
+					<a href="index.html"><img src="images/logo2.png" data-sticky-logo="images/logo.png" alt=""></a>
+				</div>
+
+				<!-- Mobile Navigation -->
+				<div class="mmenu-trigger">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+
+				<!-- Main Navigation -->
+				<nav id="navigation" class="style-1">
+					<ul id="responsive">
+
+						<li><a class="current" href="index.html#">Home</a>
+							
+						</li>
+
+						<li><a href="Drop Points-list-full-width.html">Drop Points</a>
+							
+						</li>
+
+						<li><a href="pages-blog.html">Blog</a>
+							
+						</li>
+
+						
+					</ul>
+				</nav>
+				<div class="clearfix"></div>
+				<!-- Main Navigation / End -->
+				
+			</div>
+			<!-- Left Side Content / End -->
+
+
+			<!-- Right Side Content / End -->
+			<div class="right-side">
+				<div class="header-widget">
+					<a href="#sign-in-dialog" class="sign-in popup-with-zoom-anim"><i class="sl sl-icon-login"></i>Sign In</a>
+					<a href="pages-contact.html" class="button border with-icon">Become a Partner <i class="sl sl-icon-plus"></i></a>
+				</div>
+			</div>
+			<!-- Right Side Content / End -->
+
+			<!-- Sign In Popup -->
+			<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+
+				<div class="small-dialog-header">
+					<h3>Sign In</h3>
+				</div>
+
+				<!--Tabs -->
+				<div class="sign-in-form style-1">
+
+					<ul class="tabs-nav">
+						<li class=""><a href="#tab1">Log In</a></li>
+						<li><a href="#tab2">Register</a></li>
+					</ul>
+
+					<div class="tabs-container alt">
+
+						<!-- Login -->
+						<div class="tab-content" id="tab1" style="display: none;">
+							<form method="post" class="login">
+
+								<p class="form-row form-row-wide">
+									<label for="username">Username:
+										<i class="im im-icon-Male"></i>
+										<input type="text" class="input-text" name="username" id="username" value="" />
+									</label>
+								</p>
+
+								<p class="form-row form-row-wide">
+									<label for="password">Password:
+										<i class="im im-icon-Lock-2"></i>
+										<input class="input-text" type="password" name="password" id="password"/>
+									</label>
+									<span class="lost_password">
+										<a href="#" >Lost Your Password?</a>
+									</span>
+								</p>
+
+								<div class="form-row">
+									<input type="submit" class="button border margin-top-5" name="login" value="Login" />
+									<div class="checkboxes margin-top-10">
+										<input id="remember-me" type="checkbox" name="check">
+										<label for="remember-me">Remember Me</label>
+									</div>
+								</div>
+								
+							</form>
+						</div>
+
+						<!-- Register -->
+						<div class="tab-content" id="tab2" style="display: none;">
+
+							<form method="post" class="register">
+								
+							<p class="form-row form-row-wide">
+								<label for="username2">Username:
+									<i class="im im-icon-Male"></i>
+									<input type="text" class="input-text" name="username" id="username2" value="" />
+								</label>
+							</p>
+								
+							<p class="form-row form-row-wide">
+								<label for="email2">Email Address:
+									<i class="im im-icon-Mail"></i>
+									<input type="text" class="input-text" name="email" id="email2" value="" />
+								</label>
+							</p>
+
+							<p class="form-row form-row-wide">
+								<label for="password1">Password:
+									<i class="im im-icon-Lock-2"></i>
+									<input class="input-text" type="password" name="password1" id="password1"/>
+								</label>
+							</p>
+
+							<p class="form-row form-row-wide">
+								<label for="password2">Repeat Password:
+									<i class="im im-icon-Lock-2"></i>
+									<input class="input-text" type="password" name="password2" id="password2"/>
+								</label>
+							</p>
+
+							<input type="submit" class="button border fw margin-top-10" name="register" value="Register" />
+	
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- Sign In Popup / End -->
+
+			
+					<!-- User Menu -->
+				
+</header>
+<div class="clearfix"></div>
+<!-- Header Container / End -->
+
+
+<!-- Banner
+================================================== -->
+<div class="main-search-container centered" data-background-image="images/main-search-background-01.jpg">
+	<div class="main-search-inner">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>
+						Find Luggage Storage In Nearby
+						<!-- Typed words can be configured in script settings at the bottom of this HTML file -->
+						<span class="typed-words"></span>
+					</h2>
+					<h4>Drop off your luggage at DropitGo and enjoy your journey all day !</h4>
+
+					<div class="main-search-input">
+
+						<div class="main-search-input-item">
+							<input type="text" placeholder="Where?city,Street,Address,location" value=""/>
+						</div>
+
+						<div class="main-search-input-item location">
+							<div id="autocomplete-container">
+								<input  type="text" placeholder="Drop-off Date and Time">
+							</div>
+							<a href="index.html#"><i class="fa fa-map-marker"></i></a>
+						</div>
+
+						<div class="main-search-input-item">
+							<select data-placeholder="All Categories" class="chosen-select" >
+								<option>No. of Items</option>	
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5+</option>
+							</select>
+						</div>
+
+						<button class="button" onclick="window.location.href='Drop Points-half-screen-map-list.html'">Search</button>
+
+					</div>
+				</div>
+			</div>
+			
+			<!-- Features Categories -->
+			<div class="row">
+				<div class="col-md-12">
+					<h5 class="highlighted-categories-headline">India's First Platform With services like</h5>
+					  
+					<div class="highlighted-categories">
+						<!-- Box -->
+						<a class="highlighted-category">
+					    	<img src="images/baggicon.png">
+					    	
+					    	<h4>One Click Luggage storage</h4>
+						</a>	
+
+						<!-- Box -->
+						<a class="highlighted-category">
+					    	<img src="images/fastfood.png">
+					    	<h4>Breakfast</h4>
+						</a>	
+
+						<!-- Box -->
+						<a  class="highlighted-category">
+					    	<img src="images/waitingicon.png">
+					    	<h4>Waiting/Resting Room</h4>
+						</a>	
+
+						<!-- Box -->
+						<a class="highlighted-category">
+					    	<img src="images/shower.png">
+					    	<h4>Facilities</h4>
+						</a>		
+					</div>
+					
+				</div>
+			</div>
+			<!-- Featured Categories - End -->
+
+		</div>
+
+	</div>
+</div>
+
+
+<!-- Content
+================================================== -->
+<div class="container">
+	<div class="row">
+
+		<div class="col-md-12">
+			<h3 class="headline centered margin-top-75">
+				<strong class="headline-with-separator">How it works</strong>
+			</h3>
+		</div>
+
+		<div class="col-md-12">
+			<div class="categories-boxes-container margin-top-5 margin-bottom-30">
+				
+				<!-- Box -->
+					
+					
+
+				<!-- Box -->
+				<a class="category-small-box">
+					<img src="images/book.png">
+					<h3>Reserve</h3>
+					<h4>quickly and easily at locations nearby or where you are going.</h4>
+				</a>
+
+				<!-- Box -->
+				<a  class="category-small-box">
+					<img src="images/5.png">
+					<h3>Drop-off</h3>
+					<h4>on demand or advanced in verified DropitGo place.</h4>
+				</a>
+
+				<!-- Box -->
+				<a  class="category-small-box">
+					<img src="images/enjoy.png">
+					<h3>Enjoy</h3>
+					<h4>without having to schlep. We got you covered!</h4>
+				</a>
+
+				<!-- Box -->
+				<a  class="category-small-box">
+					<img src="images/icon.png">
+					<h3>Pick-up</h3>
+					<h4>your luggage to fit your schedule. Simple!</h4>
+				</a>
+
+				<!-- Box -->
+				
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Category Boxes / End -->
+
+<!-- Info Section -->
+<section class="fullwidth padding-top-75 padding-bottom-70" data-background-color="#f9f9f9">
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<h3 class="headline centered headline-extra-spacing">
+				<strong class="headline-with-separator">Set yourself free</strong>
+				<span class="margin-top-25">With DropitGo exprience the mostwanted services with were never there before!</span>
+			</h3>
+		</div>
+	</div>
+
+	<div class="row icons-container">
+		<!-- Stage -->
+		<div class="col-md-4">
+
+			<div class="icon-box-2 with-line">
+
+				<img src="images/1.png">
+				<h3>Checked luggage storages</h3>
+				<p>Each storage place we propose is selected and approved by DropitGo according to very specific criteria.</p>
+				<img src="images/deposit.png">
+
+			</div>
+		</div>
+
+		<!-- Stage -->
+		<div class="col-md-4">
+
+			<div class="icon-box-2 with-line">
+				<img src="images/2.png">
+				<h3>Available 24/7</h3>
+				<p>Our luggage storage network is available 24/7 to meet the expectations of all travellers.</p>
+			</div>
+		</div>
+		<!-- Stage -->
+		<div class="col-md-4">
+
+			<div class="icon-box-2 with-line">
+				<img src="images/3.png">
+				<h3>Fixed price</h3>
+				<p>No nasty surprise, our prices are set in advance. You only pay at the booking stage.</p>
+			</div>
+		</div>
+
+		<!-- Stage -->
+
+		<div class="col-md-4">
+
+			<div class="icon-box-2 with-line">
+				
+				<h3>Traval</h3>
+				<p> Landed at 6am but can't check into your Hotel until 12pm. Ugh!</p>
+			</div>
+		</div>
+
+		<!-- Stage -->
+		<div class="col-md-4">
+
+			<div class="icon-box-2">
+				<img src="images/nope.png">
+				<h3>Meet</h3>
+				<p>No time to drop your luggage at the hotel before meeting.</p>
+			</div>
+		</div>
+	</div>
+
+</div>
+</section>
+<!-- Info Section / End -->
+
+
+
+
+<!-- Fullwidth Section -->
+<section class="fullwidth margin-top-65 padding-top-75 padding-bottom-70" data-background-color="#f8f8f8">
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12">
+				<h3 class="headline centered margin-bottom-45">
+					<strong class="headline-with-separator">Most Visited Places</strong>
+					<span>Discover Top-Rated Local Businesses</span>
+				</h3>
+			</div>
+
+			<div class="col-md-12">
+				<div class="simple-slick-carousel dots-nav">
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="Drop Points-single-page.html" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/listing-item-01.jpg" alt="">
+
+							<div class="listing-badge now-open">Now Open</div>
+							
+							<div class="listing-item-content">
+								<span class="tag">Eat & Drink</span>
+								<h3>Tom's Restaurant <i class="verified-icon"></i></h3>
+								<span>964 School Street, New York</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="3.5">
+							<div class="rating-counter">(12 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="Drop Points-single-page.html" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/listing-item-02.jpg" alt="">
+							<div class="listing-item-details">
+								<ul>
+									<li>Friday, August 10</li>
+								</ul>
+							</div>
+							<div class="listing-item-content">
+								<span class="tag">Events</span>
+								<h3>Sticky Band</h3>
+								<span>Bishop Avenue, New York</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="5.0">
+							<div class="rating-counter">(23 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->		
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="Drop Points-single-page.html" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/listing-item-03.jpg" alt="">
+							<div class="listing-item-details">
+								<ul>
+									<li>Starting from $59 per night</li>
+								</ul>
+							</div>
+							<div class="listing-item-content">
+								<span class="tag">Hotels</span>
+								<h3>Hotel Govendor</h3>
+								<span>778 Country Street, New York</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="2.0">
+							<div class="rating-counter">(17 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="Drop Points-single-page.html" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/listing-item-04.jpg" alt="">
+
+							<div class="listing-badge now-open">Now Open</div>
+
+							<div class="listing-item-content">
+								<span class="tag">Eat & Drink</span>
+								<h3>Burger House <i class="verified-icon"></i></h3>
+								<span>2726 Shinn Street, New York</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="5.0">
+							<div class="rating-counter">(31 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="Drop Points-single-page.html" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/listing-item-05.jpg" alt="">
+							<div class="listing-item-content">
+								<span class="tag">Other</span>
+								<h3>Airport</h3>
+								<span>1512 Duncan Avenue, New York</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="3.5">
+							<div class="rating-counter">(46 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="Drop Points-single-page.html" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/listing-item-06.jpg" alt="">
+
+							<div class="listing-badge now-closed">Now Closed</div>
+
+							<div class="listing-item-content">
+								<span class="tag">Eat & Drink</span>
+								<h3>Think Coffee</h3>
+								<span>215 Terry Lane, New York</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="4.5">
+							<div class="rating-counter">(15 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->
+				</div>
+				
+			</div>
+
+		</div>
+	</div>
+
+</section>
+<!-- Fullwidth Section / End -->
+
+<section class="fullwidth padding-top-75 padding-bottom-30" data-background-color="#fff">
+	<!-- Info Section -->
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h3 class="headline centered headline-extra-spacing">
+					<strong class="headline-with-separator">What Our Users Say</strong>
+					<span class="margin-top-25">We collect reviews from our users so you can get an honest opinion of what an experience with our website are really like!</span>
+				</h3>
+			</div>
+		</div>
+
+	</div>
+	<!-- Info Section / End -->
+
+	<!-- Categories Carousel -->
+	<div class="fullwidth-carousel-container margin-top-20 no-dots">
+		<div class="testimonial-carousel testimonials">
+
+			<!-- Item -->
+			<div class="fw-carousel-review">
+				<div class="testimonial-box">
+					<div class="testimonial">Bringing more coustomers</div>
+				</div>
+				<div class="testimonial-author">
+					<img src="images/happy-client-01.jpg" alt="">
+					<h4>Chirs <span>Hotel Owner</span></h4>
+				</div>
+			</div>
+			
+			<!-- Item -->
+			<div class="fw-carousel-review">
+				<div class="testimonial-box">
+					<div class="testimonial">Good service</div>
+				</div>
+				<div class="testimonial-author">
+					<img src="images/happy-client-02.jpg" alt="">
+					<h4>Tom  <span>user</span></h4>
+				</div>
+			</div>
+
+			<!-- Item -->
+			<div class="fw-carousel-review">
+				<div class="testimonial-box">
+					<div class="testimonial">Best service</div>
+				</div>
+				<div class="testimonial-author">
+					<img src="images/happy-client-03.jpg" alt="">
+					<h4>Jack <span>Restaurant Owner</span></h4>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- Categories Carousel / End -->
+
+</section>
+
+
+
+
+<!-- Recent Blog Posts -->
+<section class="fullwidth margin-top-0 padding-top-75 padding-bottom-75" data-background-color="#fff">
+	<div class="container">
+
+	
+			
+
+<!-- Footer
+================================================== -->
+<div id="footer" class="sticky-footer">
+	<!-- Main -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-sm-6">
+				<img class="footer-logo" src="images/logo.png" alt="">
+				<br><br>
+				<p>Not just the storage it is peace of mind.</p>
+			</div>
+
+			<div class="col-md-4 col-sm-6 ">
+				<h4>Helpful Links</h4>
+				<ul class="footer-links">
+					<li><a href="index.html#">Login</a></li>
+					<li><a href="index.html#">Sign Up</a></li>
+					<li><a href="index.html#">My Account</a></li>
+					<li><a href="index.html#">Add Listing</a></li>
+					<li><a href="index.html#">Pricing</a></li>
+					<li><a href="index.html#">Privacy Policy</a></li>
+				</ul>
+
+				<ul class="footer-links">
+					<li><a href="index.html#">FAQ</a></li>
+					<li><a href="index.html#">Blog</a></li>
+					<li><a href="index.html#">Our Partners</a></li>
+					<li><a href="index.html#">How It Works</a></li>
+					<li><a href="index.html#">Contact</a></li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>		
+
+			<div class="col-md-3  col-sm-12">
+				<h4>Contact Us</h4>
+				<div class="text-widget">
+					<span>KKT</span> <br>
+					Phone: <span> 7908696217 </span><br>
+					E-Mail:<span> <a href="index.html#"><span class="__cf_email__" data-cfemail="016e6767686264416479606c716d642f626e6c">[email&#160;protected]</span></a> </span><br>
+				</div>
+
+				<ul class="social-icons margin-top-20">
+					<li><a class="facebook" href="index.html#"><i class="icon-facebook"></i></a></li>
+					<li><a class="twitter" href="index.html#"><i class="icon-twitter"></i></a></li>
+					<li><a class="gplus" href="index.html#"><i class="icon-gplus"></i></a></li>
+					<li><a class="vimeo" href="index.html#"><i class="icon-vimeo"></i></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+		
+		<!-- Copyright -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="copyrights">© 2019 DropitGo. All Rights Reserved.</div>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+<!-- Footer / End -->
+
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="index.html#"></a></div>
+
+
+</div>
+<!-- Wrapper / End -->
+
+
+<!-- Scripts
+================================================== -->
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="scripts/mmenu.min.js"></script>
+<script type="text/javascript" src="scripts/chosen.min.js"></script>
+<script type="text/javascript" src="scripts/slick.min.js"></script>
+<script type="text/javascript" src="scripts/rangeslider.min.js"></script>
+<script type="text/javascript" src="scripts/magnific-popup.min.js"></script>
+<script type="text/javascript" src="scripts/waypoints.min.js"></script>
+<script type="text/javascript" src="scripts/counterup.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+<script type="text/javascript" src="scripts/tooltips.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+
+
+<!-- Google Autocomplete -->
+<script>
+  function initAutocomplete() {
+    var input = document.getElementById('autocomplete-input');
+    var autocomplete = new google.maps.places.Autocomplete(input);
+
+    autocomplete.addListener('place_changed', function() {
+      var place = autocomplete.getPlace();
+      if (!place.geometry) {
+        window.alert("No details available for input: '" + place.name + "'");
+        return;
+      }
+    });
+
+	if ($('.main-search-input-item')[0]) {
+	    setTimeout(function(){ 
+	        $(".pac-container").prependTo("#autocomplete-container");
+	    }, 300);
+	}
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g&libraries=places&callback=initAutocomplete"></script>
+
+
+<!-- Typed Script -->
+<script type="text/javascript" src="scripts/typed.js"></script>
+<script>
+var typed = new Typed('.typed-words', {
+strings: ["Shops","Restaurants","Hotels"],
+	typeSpeed: 80,
+	backSpeed: 80,
+	backDelay: 4000,
+	startDelay: 1000,
+	loop: true,
+	showCursor: true
+});
+</script>
+
+
+
+
+
+</body>
+</html>
