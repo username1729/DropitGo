@@ -2134,7 +2134,7 @@ body .typed-cursor.typed-cursor--blink.typed-fade-out {
 }
 
 .transparent-header .header-widget .sign-in:hover,.transparent-header .header-widget .sign-in {
-  color: #fff;
+  color: rgb(163, 127, 127);
 }
 
 .transparent-header #header:not(.cloned) .user-menu .user-name:after {
@@ -9301,11 +9301,11 @@ body .notification strong {
 }
 
 .testimonial-box {
-  background: 0 0;
+  
   border-radius: 6px;
   padding: 38px;
   padding-left: 110px;
-  color: #888;
+  /* color: #888; */
   position: relative;
   margin: 18px 0;
   box-shadow: none;
@@ -9321,8 +9321,8 @@ body .notification strong {
 }
 
 .testimonial-carousel .slick-slide.slick-active .testimonial-box {
-  background: #66676b;
-  color: #fff;
+  /* background: #66676b;
+  color: #fff; */
 }
 
 .testimonial-carousel .slick-slide.slick-active .testimonial:before {
